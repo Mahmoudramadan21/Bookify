@@ -156,20 +156,8 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'bookify',
-#         'USER': 'postgres',
-#         'PASSWORD': 'M1234567',
-#         'HOST': 'bookify.crekueqm8kkc.eu-north-1.rds.amazonaws.com',
-#         'PORT': '5432'
-#     }
-# }
 
 
-# Password validation
-# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -198,17 +186,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
-
-
-# Dont forget to reset database connection and hide password
-AWS_QUERYSTRING_AUTH = False
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-AWS_ACCESS_KEY_ID = 'AKIA3FLD4HR3ZCCFTOEX'
-AWS_SECRET_ACCESS_KEY = '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'
-
-AWS_STORAGE_BUCKET_NAME = 'bookify-bucket-demo'
 
 
 # Static files (CSS, JavaScript, Images)
