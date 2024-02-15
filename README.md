@@ -1,6 +1,8 @@
 Functions: 
 
+
 1- User Functions:
+
         1. Browse Home, Books, and Add to Cart:
                 ● Browse through recently added books, top-rated books, best sellers, and books categorized by business, English, history, and children's stories.
                 ● Add books to the cart without logging in.
